@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container {
+	max-width: 1100px;
+	padding: 50px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.verticle-center {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+		<div class="videoWrapper">
+			<iframe width="1280" height="720" src="https://www.youtube.com/embed/zykohT1v6B8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>	
+		</div>
+	</body>
+</html>
